@@ -69,12 +69,7 @@
   transition-duration: 0.5s;
 }
 
-.coeur1:hover{
-  opacity: 1;
-  transition-duration: 0.5s;
-}
-
-.coeur1:active{
+.coeur1:hover, .coeur1:active{
   opacity: 1;
   transition-duration: 0.5s;
 }
