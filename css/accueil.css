@@ -1,0 +1,409 @@
+/******************** VERSION MOBILE - DEBUT ********************/ 
+@media screen and (min-width: 320px) {
+
+body{
+    margin: auto;
+    font-family: "roboto";
+    max-width: 768px;
+}
+
+img{
+    object-fit: cover;
+}
+
+/******** Header - DEBUT ********/    
+
+header{
+    background-color: #F2F2F2;
+    height: 400px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.localise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    box-shadow: inset 0px 4px 5px -1px rgba(0,0,0,0.37);
+}
+.localise i{
+    padding-right: 10px;
+}
+
+.phrases-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 13% 0px 13%;
+}
+
+.phrases-header h1{
+    font-size: 25px;
+    margin: 0px 5% 0px 5%;
+}
+.phrases-header p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+header button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 55px;
+    border-radius: 60px;
+    width: 80%;
+    background: linear-gradient(#FF79DA, #9356DC);
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 7px 15px -2px #000000;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+button:hover{
+    transition: 0.5s;
+    background: linear-gradient(#faa6e2, #a96ef1);    
+    box-shadow: 0px 10px 20px 0px #000000;
+}
+/******** Header - FIN ********/   
+
+/******** FONCTIONNEMENT - DEBUT ********/
+
+.fonctionnement{
+    padding: 5%;
+}
+
+.fonctionnement-trois-cartes{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fonctionnement-carte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 6px 13px -10px #000000;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fonctionnement-trois-cartes :hover{
+    background-color: #dddada;
+ }
+
+.fonctionnement-number{
+    font-size: 18px;
+    color: white;
+    background-color: #9356DC;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4% 0 -10px;
+}
+
+.fonctionnement-logo{
+    font-size: 20px;
+    margin-right: 4%;
+    color: #949494;
+}
+
+.fonctionnement-logo :hover{
+    color: #9356DC;
+}
+
+.fonctionnement-phrase{
+    font-weight: bold;
+}
+/******** FONCTIONNEMENT - FIN ********/
+
+/******** RESTAURANTS - DEBUT ********/
+.restaurants{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin: 40px 0 40px 0;
+    height: 1300px;
+}
+
+main h2{
+    margin: 50px 0 0 30px;
+}
+
+.restaurants-carte{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 6px 13px -10px #000000;
+    justify-content: space-around;
+
+}
+
+.restaurants-carte-partie-haute{
+    position: relative;
+}
+
+.nouveau{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #99e2d0;
+    color: #008766;
+    width: 90px;
+}
+
+.restaurants img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.restaurants-carte-partie-basse{
+    display: grid;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    height: 80px;
+    grid-row-end: auto;
+    justify-content: space-between;
+
+}
+
+.restaurants-carte-partie-basse-gauche{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 17px;
+    align-items: center;
+}
+
+.restaurants-carte-partie-basse-gauche p{
+    margin: 5px 0 0 0;
+}
+
+.restaurants-carte-partie-basse-gauche h3{
+    margin: 0 0 0 0;
+}
+/******** RESTAURANTS - FIN ********/
+
+/******** FOOTER - DEBUT ********/
+footer{ 
+    color: white;
+    background-color: #353535;
+    font-size: 20px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+li{
+    margin: 10px;
+    }
+
+footer p{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer{
+    font-family: "shrikhand";
+    padding: 5px;
+    font-size: 22px;
+}
+
+.footer-ligne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/******** FOOTER - FIN ********/
+a{
+    text-decoration: none;
+    color: #000000;
+}
+}
+/******************** VERSION MOBILE - FIN ********************/  
+
+/******************** VERSION Tablette VERTICALE - Debut ********************/ 
+@media screen and (min-width: 768px) {
+    body{
+        max-width:1200px;
+    }
+
+    body h3{
+        font-size: 30px;
+    }
+
+    body h2{
+        font-size: 40px;
+    }
+
+    body p, i{
+        font-size: 25px;
+    }
+
+    header{
+        height: 500px;
+    }
+    .phrases-header h1{
+        font-size: 35px;
+    }
+
+    .phrases-header p{
+        font-size: 30px;
+    }
+
+    header button{
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .fonctionnement{
+        height: 500px;
+    }
+
+    .fonctionnement-trois-cartes{
+        height: 450px;
+    }
+    .fonctionnement-carte{
+        height: 100px;
+    }
+
+    .fonctionnement-carte p, i{
+        font-size: 25px;
+    }
+    
+
+    .restaurants{
+        height: 2800px;
+    }
+
+    .restaurants img{
+        height: 450px;
+    }
+
+    .restaurants-carte-partie-basse{
+        height: 130px;
+    }
+
+    .restaurants-carte-partie-basse i{
+        font-size: 40px;
+    }
+    
+    .nouveau{
+    font-size: 15px;  
+    width: 110px;
+    height: 50px;
+    }
+}
+/******************** VERSION Tablette VERICALE - FIN ********************/   
+
+/******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
+@media screen and (min-width: 1024px){
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+main{
+    margin: 40px 0 0 0;
+}
+
+header{
+    height:460px;
+}
+
+.phrases-header h1 p{
+    font-size: 25px;
+}
+
+
+
+.restaurants{
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: white;
+    max-width: 1345px;
+}
+
+.restaurants-carte{
+    width: 35%;
+}
+
+header button{
+    width:390px;
+}
+
+header button{
+    font-size: 30px;
+}
+
+.fonctionnement-carte{
+    width: 30%;
+    height: 80px;
+}
+.fonctionnement{
+    height: 20px;
+    width: 95%;
+    padding: 30px 2% 90px 2%;
+}
+
+.fonctionnement-trois-cartes{
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+}
+
+.restaurants-carte h2{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.restaurants-carte img{
+    height: 250px;
+}
+
+footer ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+/******************** VERSION DESKTOP / Tablette horizontale - FIN ********************/   

@@ -1,0 +1,119 @@
+/** Loader spinner - début**/
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  max-width: 1400px;
+  height: 100vh;
+  background: #F2F2F2;
+  animation: disapear 1s forwards;
+  animation-delay: 2.2s;
+  margin: auto;
+  z-index: 1;
+}
+
+.dot{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 13px;
+  animation: loader infinite 0.5s alternate;
+}
+
+.dot1{
+  background: #9356DC;
+}
+
+.dot2{
+  background: #FF79DA;
+  animation-delay: 0.05s;
+}
+
+.dot3{
+  background: #99E2D0;
+  animation-delay: 0.1s;
+}
+
+@keyframes loader {
+  100% {
+      transform: translateY(-50px);
+  }
+}
+
+@keyframes disapear{
+  to{
+      visibility: hidden;
+  }
+}
+
+/**  Loader spinner - fin**/
+
+
+/** Coeur - Début **/
+.coeur1 , .coeur{
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.coeur1{
+  color: transparent;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.coeur1:hover{
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.coeur1:active{
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+/** Coeur - Fin **/
+
+
+/** Apparitions vignettes - Debut **/
+.carte-menu{
+  animation: apparition;
+  animation-delay: 3s;
+}
+
+.delay1{
+  animation-duration: 1.5s;
+}
+
+.delay2{
+animation-duration: 2s;
+}
+
+.delay3{
+animation-duration: 3s;
+
+}
+
+.delay4{
+animation-duration: 4s;
+
+}
+
+@keyframes apparition{
+  0%{
+    transform: translateY(50%);
+    opacity:-0.9;
+  }
+100%{
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+/** Apparitions vignettes - Fin **/

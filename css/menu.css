@@ -1,0 +1,452 @@
+/******************** VERSION MOBILE - DEBUT ********************/ 
+@media screen and (min-width: 300px) {
+    
+    body{
+        margin: auto;
+        font-family: "roboto";
+        background-color: #F2F2F2;
+        max-width: 768px;
+    }
+    p, h2{
+        margin: 0px;
+        padding: 0;
+    }
+
+    img{
+        object-fit: cover;
+    }
+
+/******** Header - DEBUT ********/    
+
+header{
+    background-color: #F2F2F2;
+    height: 400px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.logo{
+    padding: 10px;
+}
+.logo a{
+    display: grid;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 30px;
+    grid-column: 1;
+}
+
+.logo img{
+    grid-column: 2;
+}
+
+.header-image img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 317px;
+    min-height: 250px;
+}
+/******** Header - FIN ********/
+
+/******** MENU - DEBUT ********/
+.titre-menu{
+    display: grid;
+    flex-direction: row;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 50px 50px 0 0;
+    font-family: "shrikhand";
+    padding: 20px 0 20px 0;
+    position: sticky;
+    margin-top: -115px;
+}
+
+.titre {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    border-bottom: solid #9356DC 3px;
+    width: 30px;
+}
+
+
+.carré{
+    overflow: hidden;
+    background-color: #99E2DE;
+
+}
+.carré i{
+    height: 100%;
+    width: 5rem;
+    min-width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2DE;
+    font-size: 25px;
+    color: white;
+    border-radius: 0px 10px 10px 0;
+    transition-duration: 0.8s;
+    transition-delay: 3s;
+    cursor: pointer;
+}
+
+.carré i:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+.carré i:active{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+
+.carte-menu{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    align-content: center;
+    height: 70px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px -2px #000000;
+    animation: degrade 3s;
+    overflow: hidden;
+}
+
+.carte-menu-gauche{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width:46%;
+   padding: 20px;
+   text-overflow: ellipsis;
+}
+
+.carte-menu-gauche p{
+    font-size: 0.8rem;
+}
+
+
+.carte-menu h2{
+    font-size: 0.9rem;
+}
+
+.prix-menu{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    overflow: hidden;
+    margin: 0 -27% 0 0;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 0.5s;
+}
+
+.prix-menu:hover{
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 0.5s;
+}
+
+.prix-menu p{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    height: 67px;
+    font-weight: bold;
+    width: 16%;
+    padding: 0 10px 0 9px;
+    background-color: white;
+}
+
+.categorie-menu{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    align-items: center;
+}
+
+.variante-menu{
+    height: 390px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 55px;
+    border-radius: 60px;
+    width: 60%;
+    background: linear-gradient(#FF79DA, #9356DC);
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 7px 15px -2px #000000;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.boutton-commander{
+    margin: 40px 0 60px 0;
+}
+/******** MENU - FIN ********/
+
+    
+/******** FOOTER - DEBUT ********/
+footer{ 
+    color: white;
+    background-color: #353535;
+    font-size: 20px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer{
+    font-family: "shrikhand";
+    padding: 5px;
+    font-size: 22px;
+}
+
+.footer-ligne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button:hover{
+    transition: 0.5s;
+    background: linear-gradient(#faa6e2, #a96ef1);    
+    box-shadow: 0px 10px 20px 0px #000000;
+}
+
+/******** FOOTER - FIN ********/
+}
+/******************** VERSION MOBILE - FIN ********************/ 
+
+/******************** VERSION Tablette VERTICALE - Debut ********************/ 
+@media screen and (min-width: 426px) {
+    body{
+        max-width:1100px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .titre-menu i{
+        font-size: 40px;
+    }    
+
+    .titre-menu{
+        justify-content: space-between;
+        padding: 0px 30px 0 30px;
+        height: 120px;
+
+    }
+
+    .carré i{
+        width: 7rem;
+        min-width: 7rem;
+        font-size: 45px;
+    }
+
+
+    .titre p{
+        font-size: 30px;
+    }
+
+    .carte-menu{
+        height: 120px;
+    }
+
+    .carte-menu h2{
+        font-size: 21px;
+    }
+
+    .carte-menu p{
+        font-size: 20px;
+    }
+
+    .categorie-menu{
+        height: 430px;
+    }
+
+    .prix-menu{
+        margin-right: -29.5%;
+    }
+
+    .prix-menu p{
+        padding: 33px 0 0 5px;  
+    }
+    .variante-menu{
+        height: 537px;
+    }
+    
+
+}
+/******************** VERSION Tablette VERICALE - FIN ********************/ 
+
+/******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
+@media screen and (min-width: 1024px) {
+    body{
+        max-width:1400px;
+    }
+
+    .titre-menu{
+        height: 160px;
+        margin-top: 10px;
+        position: unset;
+    }
+
+    header{
+        height: 300px;
+    }
+    .header-image img{
+        max-height: 100px;
+    }
+
+    .carte-menu h2{
+        font-size: 13px
+    }
+
+    .categorie-menu{
+        width: 40%;
+        height: 240px;
+        margin-top: 50px;
+    }
+
+    .carte-menu{
+        height:70px;
+        width: 100%;
+    }
+
+    .carte-menu p{
+        font-size: 12px;
+    }
+
+    .prix-menu{
+        width: 50%;
+    }
+    .prix-menu p{
+        padding: 10px 0 0 0;
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .prix-menu i{
+        font-size: 30px;
+        width: 5rem;
+    }
+    .menu p{
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+    }
+
+    .menu{
+        width: 100%;
+   }
+
+   .titre{
+        border-color: transparent;   
+    }
+    
+    .section1 .titre p{
+        background-color: #F2F2F2;
+        border: none;
+        height: 50px;
+        padding-left: 50px;
+        position: absolute;
+    }
+
+    footer ul{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .setion-variante{
+        height: 360px;
+    }
+
+    .variante-menu{
+        height: 100%;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .section2 .titre p{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    button{
+        font-size: 20px;
+        padding: 15px;
+        height: 80px;
+        width: 100%;
+    }
+
+}
+/******************** VERSION DESKTOP / Tablette horizontale - FIN ********************/   
